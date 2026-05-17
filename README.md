@@ -24,7 +24,16 @@ Find more agent skills for Swift and Apple platform development at [Swift Agent 
 
 ## Installing Swift Testing Pro
 
-You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using `npx`:
+### Claude Code
+
+Add the Swift Testing Agent Skill marketplace, then install the plugin:
+
+```
+/plugin marketplace add twostraws/Swift-Testing-Agent-Skill
+/plugin install swift-testing-pro@swift-testing-agent-skill
+```
+
+### Codex, Gemini, Cursor, and others
 
 ```bash
 npx skills add https://github.com/twostraws/swift-testing-agent-skill --skill swift-testing-pro
